@@ -7,26 +7,27 @@ using UnityEngine.UI;
 
 public class DialogueS : MonoBehaviour
 {
-    public string text;
+
 
     public UnityEvent EndOfTextEvent;
-
-   // public Panel panel;
-    
-    public Text DialogueBox;
     
     //Call when DialogueBox is opened
     
-    public void DisplayText()
+    public void OpenBox()
     {
-       // DialogueBoxText = text
+        GetComponent<CanvasGroup>().alpha = 1;
+        GetComponent<CanvasGroup>().interactable = true;
+        GetComponent<CanvasGroup>().blocksRaycasts = true;
     }
     
     // call when next button is pressed
     
     public void CloseBox()
     {
-        
+        GetComponent<CanvasGroup>().alpha = 0;
+        GetComponent<CanvasGroup>().interactable = false;
+        GetComponent<CanvasGroup>().blocksRaycasts = false;
+        EndOfTextEvent.Invoke();
     }
     
     
