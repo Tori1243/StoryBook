@@ -7,6 +7,8 @@
         <e p="Scripts" t="Include">
           <e p="DestroyObject.cs" t="Include" />
           <e p="DialogueS.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
           <e p="OnMouseEvent.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
