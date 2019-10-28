@@ -17,4 +17,9 @@ public class GameAction : ScriptableObject
     {
         transformAction?.Invoke(transformObj);
     }
+
+    public void StartAnimation()
+    {
+        
+    }
 }
