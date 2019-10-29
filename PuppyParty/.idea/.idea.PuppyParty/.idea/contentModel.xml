@@ -11,6 +11,7 @@
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
+          <e p="MusicController.cs" t="Include" />
           <e p="OnMouseEvent.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
         </e>
