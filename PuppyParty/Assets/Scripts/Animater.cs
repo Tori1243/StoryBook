@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Animation : MonoBehaviour, IEnumerable
+public class Animater: MonoBehaviour, IEnumerable
 {
     public Animation anim;
 
