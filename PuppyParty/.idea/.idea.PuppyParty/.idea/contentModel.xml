@@ -17,6 +17,11 @@
           <e p="OnMouseEvent.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
+          <e p="WaitSec.cs" t="Include" />
+          <e p="WIP Scripts" t="Include">
+            <e p="AnimatorTrigger.cs" t="Include" />
+            <e p="SelectRandomObj.cs" t="Include" />
+          </e>
         </e>
         <e p="TutorialScripts" t="Include">
           <e p="DialogueManager.cs" t="Include" />
