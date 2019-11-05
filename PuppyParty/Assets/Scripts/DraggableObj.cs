@@ -6,8 +6,8 @@ public class DraggableObj : MonoBehaviour
     private Vector3 offsetPosition;
     private float mouseZCoordinate;
     public Camera cam;
-    public bool Draggable { get; set; }
-
+    public bool
+ Draggable { get; set; }
     private void Start()
     {
         cam = Camera.main;
