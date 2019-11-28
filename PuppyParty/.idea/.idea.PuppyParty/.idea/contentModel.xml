@@ -12,12 +12,15 @@
           <e p="DragAndDestroy.cs" t="Include" />
           <e p="DraggableObj.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
+          <e p="FollowMouse.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
           <e p="MoveCharacter.cs" t="Include" />
+          <e p="MovingArrows.cs" t="Include" />
           <e p="MusicController.cs" t="Include" />
           <e p="OnMouseEvent.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
+          <e p="SnapToPoints.cs" t="Include" />
           <e p="TimeDestory.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
           <e p="WIP Scripts" t="Include">
