@@ -20,7 +20,6 @@
           <e p="MusicController.cs" t="Include" />
           <e p="OnMouseEvent.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
-          <e p="SelectionManage.cs" t="Include" />
           <e p="SnapToPoints.cs" t="Include" />
           <e p="TimeDestory.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
@@ -42,6 +41,7 @@
           <e p="DialogueManager.cs" t="Include" />
           <e p="DialogueTrigger.cs" t="Include" />
           <e p="Dialouge.cs" t="Include" />
+          <e p="SelectionManage.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
