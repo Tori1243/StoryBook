@@ -1,12 +1,14 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class ReferenceTurtle : MonoBehaviour
 {
-    public SelectRandomObj SRO;
+    public SelectRandom SR;
     public GameObject placeOfTurtle;
 
-    public void displayTurtle()
+    public void displayFish()
     {
-        Instantiate(SRO.SelectedObject,placeOfTurtle.transform.position,Quaternion.identity);
+        Instantiate(SR.SelectedObject,placeOfTurtle.transform.position,Quaternion.identity);
     }
 }
