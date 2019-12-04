@@ -8,6 +8,7 @@
           <e p="ActionCalls.cs" t="Include" />
           <e p="Animater.cs" t="Include" />
           <e p="CharacterMove.cs" t="Include" />
+          <e p="CollisonEvent.cs" t="Include" />
           <e p="DestroyObject.cs" t="Include" />
           <e p="DialogueS.cs" t="Include" />
           <e p="DragAndDestroy.cs" t="Include" />
