@@ -29,6 +29,7 @@
           <e p="MovingArrows.cs" t="Include" />
           <e p="MusicController.cs" t="Include" />
           <e p="OnMouseEvent.cs" t="Include" />
+          <e p="ReferenceTurtle.cs" t="Include" />
           <e p="SceneChanger.cs" t="Include" />
           <e p="SelectRandom.cs" t="Include" />
           <e p="SelectRandomObj.cs" t="Include" />
@@ -38,7 +39,6 @@
           <e p="WaitTime.cs" t="Include" />
           <e p="WIP Scripts" t="Include">
             <e p="AnimatorTrigger.cs" t="Include" />
-            <e p="ReferenceTurtle.cs" t="Include" />
             <e p="WaitSec.cs" t="Include" />
           </e>
         </e>

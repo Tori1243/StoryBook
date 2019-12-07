@@ -1304,38 +1304,6 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   time: 3
---- !u!114 &1569972738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1569972728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bd00733205d7419084efee6cd1fa7a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1569972737}
-        m_MethodName: StartTimer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  triggerExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!54 &1569972739
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1394,7 +1362,7 @@ Prefab:
     - target: {fileID: 114740462051244640, guid: 2b4056ab811aa4e7387fc12e3d1cd792,
         type: 2}
       propertyPath: OnMouseDownEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4739272997661832, guid: 2b4056ab811aa4e7387fc12e3d1cd792, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1475,11 +1443,11 @@ Prefab:
         type: 2}
       propertyPath: OnMouseDownEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1569972737}
     - target: {fileID: 114740462051244640, guid: 2b4056ab811aa4e7387fc12e3d1cd792,
         type: 2}
       propertyPath: OnMouseDownEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Set
+      value: StartTimer
       objectReference: {fileID: 0}
     - target: {fileID: 114740462051244640, guid: 2b4056ab811aa4e7387fc12e3d1cd792,
         type: 2}
