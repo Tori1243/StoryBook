@@ -23,6 +23,7 @@
           <e p="DragAndDestroy.cs" t="Include" />
           <e p="DraggableObj.cs" t="Include" />
           <e p="EndGame.cs" t="Include" />
+          <e p="ExitGame.cs" t="Include" />
           <e p="FollowMouse.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
